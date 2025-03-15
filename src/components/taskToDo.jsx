@@ -30,8 +30,8 @@ export default function ToDoList() {
   }
 
   const filteredTasks = tasks.filter((t) => {
-    if (filter === "complete") return t.completed;
-    if (filter === "incomplete") return !t.completed;
+    if (filter == "complete") return t.completed;
+    if (filter == "incomplete") return !t.completed;
     return true;
   });
 
