@@ -1,0 +1,43 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-button:hover {
+  background-color: #0056b3;
+}
+
+.recent-list {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-item {
+  background: #f8f9fa;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
